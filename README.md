@@ -18,7 +18,7 @@
 Execute o comando abaixo para baixar e instalar o script diretamente no terminal:
 
 ```bash
-sudo wget https://raw.githubusercontent.com/CarloseOldenburg/updater/refs/heads/main/ferramentas -O vsd-launcher && \
+sudo wget https://raw.githubusercontent.com/CarloseOldenburg/Ferramentas/refs/heads/main/VSD-Launcher -O vsd-launcher && \
 sudo chmod 755 vsd-launcher && \
 sudo mv vsd-launcher /usr/bin/
 ````
@@ -114,7 +114,14 @@ vsd-launcher --help
 
 ---
 
-## 📤 Autor
+## 👤 Autor
 
 Desenvolvido por [Carlos Eduardo Oldenburg](https://github.com/CarloseOldenburg)
+Fonte do launcher [Wilker Santos](https://github.com/wilker-santos)
+
+---
+
+## 📜 Licença
+
+Distribuído sob licença livre para uso interno corporativo e manutenção de terminais com sistemas VideoSoft.
 
