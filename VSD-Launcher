@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# sudo wget https://raw.githubusercontent.com/CarloseOldenburg/updater/refs/heads/main/ferramentas -O vsd-launcher && sudo chmod 755 vsd-launcher && sudo mv vsd-launcher /usr/bin/
+# https://raw.githubusercontent.com/CarloseOldenburg/Ferramentas/refs/heads/main/VSD-Launcher && sudo chmod 755 vsd-launcher && sudo mv vsd-launcher /usr/bin/
 
 function display_help() {
     echo "Uso: vsd-launcher -s <software> [-v <version>] [--homolog] [--clear-cache] [--clear-token]"
