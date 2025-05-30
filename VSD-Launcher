@@ -1,6 +1,13 @@
 #!/bin/bash
 
-# https://raw.githubusercontent.com/CarloseOldenburg/Ferramentas/refs/heads/main/VSD-Launcher && sudo chmod 755 vsd-launcher && sudo mv vsd-launcher /usr/bin/
+# sudo wget --inet4-only -O- https://raw.githubusercontent.com/CarloseOldenburg/Ferramentas/refs/heads/main/VSD-Launcher && sudo chmod 755 vsd-launcher && sudo mv vsd-launcher /usr/bin/
+
+
+# Checar root
+if [[ $EUID -ne 0 ]]; then
+    echo "Execute como root (use sudo)."
+    exit 1
+fi
 
 function display_help() {
     echo "Uso: vsd-launcher -s <software> [-v <version>] [--homolog] [--clear-cache] [--clear-token]"
